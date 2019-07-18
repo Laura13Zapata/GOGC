@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title{
+  display: flex;
+  text-align: center;
+  font-family:;
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  padding: 30px;
+
+}
+#front{
+  text-align: center;
+  margin-left:310px;
+}
+body{
+  background-image: linear-gradient(to right, #ABC8E7, #7FF2CF);
+  height: 100%;
+}
+
+.paragraphs{
+  display: flex;
+  justify-content: space-around;
+}
+
+img{
+  display: flex;
+
+  height:60px;
+  width:60px;
+  object-fit: cover;
+  margin-right:auto;
+  margin-left: auto;
+
+}
+
+.paragraphs{
+  text-align: center;
+}
+
+
+.map-one{
+  height:600px;
+  width:80%;
+  object-fit: cover;
+  padding: 20px
+}
+.map{
+  position: relative;
+
+}
+.map .chi{
+  background-color: white;
+  color:black;
+  position: absolute;
+  width:20px;
+  height:20px;
+  top:31%;
+  right:38%;
+  transform:translate(-50%,50%);
+}
+
+.map .chi:hover{
+  background-color: red;
+  color:white;
+
+}
+
+
+.map .la{
+  background-color: white;
+  color:black;
+  position: absolute;
+  width:20px;
+  height:20px;
+  top:54%;
+  right:80%;
+  transform: translate(-50%,50%);
+}
+.map .la:hover{
+  background-color: red;
+  color:white;
+}
+.map .NY{
+  background-color: white;
+  color:black;
+  position: absolute;
+  width:20px;
+  height:20px;
+  top:32%;
+  right:19%;
+  transform:translate(-50%,50%);
+}
+.map .NY:hover{
+  background-color: red;
+  color:white;
+}
+.dropdown-content{
+  display: none;
+}
