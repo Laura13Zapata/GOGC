@@ -1,8 +1,23 @@
 var chicago = $(".chi");
-var appendSpace = $("appendArea");
+chicago.on("click", toggleTest);
 
-chicago.on("click", dropDownInfo);
+function toggleTest() {
+  var testBox = $(".chicago");
+  testBox.toggle();
+}
 
-function dropDownInfo {
-  appendSpace.append(`<p>${dropdown-content}</p>`);
+var newYork = $(".NY");
+newYork.on("click", toggleNY);
+
+function toggleNY() {
+  var nyBox = $(".newYork");
+  nyBox.toggle();
+}
+
+var losAngeles = $(".la");
+losAngeles.on("click", toggleLA);
+
+function toggleLA() {
+  var laBox = $(".losAngeles");
+  laBox.toggle();
 }

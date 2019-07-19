@@ -9,8 +9,9 @@ body{
 h1{
   display: flex;
   text-align: center;
-  font-family:;
+  font-family: monospace;
   color: black;
+
   font-size: 40px;
   justify-content: center;
   background-color:lightpink;
@@ -26,5 +27,29 @@ h2{
 p{
   color:black;
   text-align:center;
+
+  font-family: "Twentieth Century™ W01", "Futura", "Helvetica", "Arial", sans-serif;
+font-size:25px;
+
+}
+img{
+  display: flex;
+  flex-direction: row;
+
+  height:200px;
+  width:200px;
+
+  object-fit: cover;
+}
+.grouptwo{
+  display: flex;
+  flex-flow: row-reverse;
+
+
+}
+.girls{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
 
 }

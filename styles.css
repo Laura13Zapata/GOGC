@@ -7,7 +7,7 @@
 .title{
   display: flex;
   text-align: center;
-  font-family:;
+  font-family: "Twentieth Century™ W01", "Futura", "Helvetica", "Arial", sans-serif;
   color: white;
   font-size: 20px;
   background-color: black;
@@ -30,7 +30,6 @@ body{
 
 img{
   display: flex;
-
   height:60px;
   width:60px;
   object-fit: cover;
@@ -40,12 +39,12 @@ img{
 }
 
 .paragraphs{
-  text-align: center;
+  text-align:center;
 }
 
 
 .map-one{
-  height:600px;
+  height:660px;
   width:80%;
   object-fit: cover;
   padding: 20px
@@ -60,13 +59,13 @@ img{
   position: absolute;
   width:20px;
   height:20px;
-  top:31%;
+  top:34%;
   right:38%;
   transform:translate(-50%,50%);
 }
 
 .map .chi:hover{
-  background-color: red;
+  background-color:#D7F75B ;
   color:white;
 
 }
@@ -78,12 +77,12 @@ img{
   position: absolute;
   width:20px;
   height:20px;
-  top:54%;
+  top:55%;
   right:80%;
   transform: translate(-50%,50%);
 }
 .map .la:hover{
-  background-color: red;
+  background-color:#FCF6BD;
   color:white;
 }
 .map .NY{
@@ -92,14 +91,64 @@ img{
   position: absolute;
   width:20px;
   height:20px;
-  top:32%;
-  right:19%;
+  top:30.7%;
+  right:18.5%;
   transform:translate(-50%,50%);
 }
 .map .NY:hover{
-  background-color: red;
+  background-color:#E4C1F9;
   color:white;
 }
-.dropdown-content{
+
+.map .chicago {
+  position:absolute;
+  background-color: #A9DEF9;
+  top: 35%;
+  right: 40%;
+font-family: "Twentieth Century™ W01", "Futura", "Helvetica", "Arial", sans-serif;
+}
+.chicago {
   display: none;
+}
+.newYork {
+  display: none;
+}
+.losAngeles {
+  display: none;
+}
+.ssp{
+  background-color: red;
+
+
+}
+
+#first{
+  background-color:#D0F4DE;
+  width: 101px;
+  height:50px;
+  font-size: 15px;
+  font-family: "Twentieth Century™ W01", "Futura", "Helvetica", "Arial", sans-serif;
+}
+#second{
+  background-color:#D0F4DE;
+  width: 101px;
+  height:50px;
+  font-size: 15px;
+  padding:10px;
+  font-family: "Twentieth Century™ W01", "Futura", "Helvetica", "Arial", sans-serif;
+}
+.map .newYork {
+  position:absolute;
+  background-color: #A9DEF9;
+  top:32%;
+  right:20%;
+font-family: "Twentieth Century™ W01", "Futura", "Helvetica", "Arial", sans-serif;
+}
+
+.map .losAngeles {
+  position:absolute;
+  background-color: #A9DEF9;
+  top:55%;
+  right:80%;
+font-family: "Twentieth Century™ W01", "Futura", "Helvetica", "Arial", sans-serif;
 }
